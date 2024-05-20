@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"Poppins",sans-serif;
+}
+.logo,.search-icon{
+    color:#CC395F;
+}
+.search{
+    display: flex;
+    padding:10px;
+    border:solid black 1px;
+    border-radius:30px;
+    justify-content: space-around;
+    width: 30%; 
+}
+.one
+{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: space-between;
+}
+.two{
+    padding:10px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+img{
+    border-radius:10px;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.three{
+    padding:10px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.four{
+    padding: 10px;
+}
